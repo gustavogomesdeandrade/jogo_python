@@ -1,8 +1,8 @@
 # Nebula Sentinel
 
 Um jogo arcade espacial feito em Python e Pygame, pensado também como material
-de estudo. Todo o visual é desenhado por código: não há imagens ou sons externos
-para configurar.
+de estudo. Todo o visual e os efeitos sonoros são desenhados por código: não há
+imagens ou arquivos de áudio externos para configurar.
 
 ## Como executar
 
@@ -30,6 +30,7 @@ para configurar.
 ├── data/               # recorde salvo localmente (criado ao jogar)
 └── src/
     ├── config.py       # constantes e paleta
+    ├── audio.py         # efeitos e ambiência sintetizados matematicamente
     ├── entities.py     # nave, inimigos, tiros e partículas
     ├── game.py         # loop principal e estados das telas
     ├── systems.py      # ondas, colisões e pontuação
