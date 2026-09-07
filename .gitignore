@@ -1,0 +1,6 @@
+# Arquivos criados automaticamente pelo Python e pelo jogo.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/save.json
